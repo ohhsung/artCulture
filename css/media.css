@@ -1,0 +1,658 @@
+.mobile {
+    display: none;
+}
+
+.tablet {
+    display: none;
+}
+
+@media screen and (max-width:1800px) {
+    .section-01 .scrollX .img-wrap {
+        gap: 20px;
+    }
+
+    .section-02 .card {
+        position: static;
+        top: 0;
+        height: auto;
+
+        width: 100%;
+    }
+
+    .section-02 .card-01 {
+        padding-bottom: 100px;
+    }
+
+    .section-02 .pc-card {
+        display: none;
+    }
+
+    .section-02 .card-02 .item-wrap {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .pc-nav {
+        display: none;
+    }
+
+    .main-visual .btn-wrap {
+        row-gap: 16px;
+        top: -88px;
+    }
+
+    .main-visual .btn-wrap .btn .item {
+        font-size: 28px;
+    }
+
+    .main-visual .mint-blob {
+        width: 80vw;
+    }
+
+    .section-01 .text .sub {
+        font-size: 24px;
+    }
+
+    .section-01 .scrollX .img-wrap .img {
+        width: 500px;
+    }
+
+    .section-01 {
+        height: 1800px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .header-tab-menu .gnb {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-tab-menu .nav {
+        width: 80vw;
+        margin: 0 auto;
+        border-radius: 0 0 40px 40px;
+    }
+
+    .header-tab-menu .nav.active .gnb {
+        height: 520px;
+    }
+
+    .header-tab-menu .gnb.active {
+        height: 520px !important;
+    }
+
+    .header-tab-menu .depth-01 {
+        padding: 15px 0;
+    }
+
+    .header-tab-menu .depth-02 {
+        top: 60px;
+    }
+
+    .header-tab-menu .gnb li {
+        transition: height 0.3s;
+        height: 60px;
+    }
+
+    .header-tab-menu .gnb.active li.active {
+        height: 120px;
+    }
+
+    .section .title-text {
+        padding-right: 80px;
+    }
+
+    .section .title-text .sub span {
+        display: inline;
+    }
+
+    .section-01 .scrollX .img-wrap .img {
+        width: 400px;
+    }
+
+    .section-03 .swiper-slide .text {
+        width: 400px;
+    }
+
+    .footer .right {
+        padding-right: 7%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .header .inner {
+        padding: 0 30px;
+    }
+
+    .header .login {
+        gap: 20px;
+    }
+
+    .main-visual .btn-wrap {
+        row-gap: 12px;
+        top: -80px;
+        right: 30px;
+    }
+
+    .main-visual .btn-wrap .btn .item {
+        font-size: 24px;
+    }
+
+    .main-visual .mint-blob {
+        width: 95vw;
+    }
+
+    .section .title-text {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section .title-text .title {
+        font-size: 60px;
+    }
+
+    .section .title-text .sub {
+        font-size: 18px;
+    }
+
+    .section-01 .text .sub {
+        padding: 0 30px;
+        font-size: 20px;
+    }
+
+    .section-01 .scrollX {
+        padding: 0 30px;
+    }
+
+    .section-02 .card-01 .item-wrap .item {
+        padding: 30px 30px;
+    }
+
+    .section-02 .card-01 .item-wrap .item .left .num {
+        font-size: 20px;
+    }
+
+    .section-02 .card-01 .item-wrap .item .left .text .mid {
+        font-size: 30px;
+    }
+
+    .section-02 .card-01 .item-wrap .item .left .text .bot {
+        font-size: 16px;
+    }
+
+    .section-02 .card-01 .item-wrap .item .more {
+        width: 30px;
+    }
+
+    .section-02 .card-02 {
+        padding: 80px 30px 100px;
+    }
+
+    .section-02 .card-02 .pc {
+        display: none !important;
+    }
+
+    .section-02 .card-02 .tablet {
+        display: block;
+    }
+
+    .section-02 .card-02 .tablet .item:not(:nth-child(3)) {
+        margin-bottom: 60px;
+    }
+
+    .section-02 .card-02 .tablet .text .big {
+        font-size: 50px;
+        font-family: 'green1';
+        margin-bottom: 10px;
+    }
+
+    .section-02 .card-02 .tablet .text .small {
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+
+    .section-02 .card-02 .tablet .img {
+        width: 100%;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .section-02 .card-02 .tablet .img:hover img {
+        transform: scale(1.2);
+    }
+
+    .section-02 .card-02 .tablet .img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s;
+    }
+
+    .section-03 .swiper-slide {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .section-03 .demoSwiper .demo-btn-wrap {
+        margin: 0;
+        padding: 0 30px;
+
+        position: absolute;
+        top: 220px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9;
+
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .section-03 .swiper-slide .text {
+        width: 500px;
+    }
+
+    .section-03 .swiper-slide .text .main-text {
+        margin-bottom: 20px;
+    }
+
+    .section-03 .swiper-slide .text .ex {
+        font-size: 18px;
+    }
+
+    .section-04 .container {
+        padding: 0 30px;
+    }
+
+    .section-04 .swiper-slide .text {
+        display: none;
+    }
+
+    .footer {
+        padding: 60px 5% 20px;
+        background-size: 200%;
+    }
+
+    .footer .logo {
+        width: 120px;
+        height: 39px;
+    }
+
+    .footer .info {
+        margin-top: 20px;
+    }
+
+    .footer .left {
+        font-size: 14px;
+    }
+
+    .footer .company {
+        margin-bottom: 20px;
+    }
+
+    .footer .right {
+        margin-top: 30px;
+        font-size: 20px;
+        padding-right: 12%;
+    }
+
+    .footer .right a:first-child {
+        margin-bottom: 10px;
+    }
+
+    .footer .right a img {
+        width: 16px;
+        height: 16px;
+        margin-left: 20px;
+    }
+
+    .footer .bot .sns {
+        padding-bottom: 40px;
+        font-size: 14px;
+    }
+
+    .footer .copy {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .section-01 {
+        height: 2000px;
+    }
+
+    .section-01 .scrollX .img-wrap {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .pc {
+        display: none !important;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .header .inner {
+        padding: 0 20px;
+    }
+
+    .header-tab-menu .tab-btn {
+        height: 35px;
+        bottom: -35px;
+    }
+
+    .header-tab-menu .tab-btn.active::before {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header-tab-menu .nav {
+        width: 100%;
+    }
+
+    .header-tab-menu .nav.active .gnb {
+        height: 500px;
+    }
+
+    .header-tab-menu .gnb li {
+        height: 47px;
+    }
+
+    .header-tab-menu .gnb.active li.active {
+        height: 110px;
+    }
+
+    .header-tab-menu .depth-01 {
+        font-size: 18px;
+
+        padding: 10px 0;
+    }
+
+    .header-tab-menu .depth-02>li a {
+        font-size: 14px;
+    }
+
+    .main-visual .btn-wrap {
+        row-gap: 8px;
+        right: 20px;
+    }
+
+    .main-visual .btn-wrap .btn::after {
+        display: none;
+    }
+
+    .section .title-text {
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-01 {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    .section-01 .text .sub {
+        padding: 0 20px;
+    }
+
+    .section .title-text .sub {
+        font-size: 16px;
+    }
+
+    .section-01 .mobile .img-wrap {
+        padding: 0 20px;
+        margin-top: 60px;
+    }
+
+    .section-01 .mobile .img-wrap .img {
+        margin-bottom: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .section-02 .card-01 {
+        padding-bottom: 80px;
+    }
+
+    .section-02 .card-01 .item-wrap .item {
+        padding: 30px 20px;
+    }
+
+    .section-02 .card-02 {
+        padding: 60px 20px 80px;
+    }
+
+    .section-02 .card-02 .tablet .text .big {
+        margin: 0;
+    }
+
+    .section-02 .card-02 .tablet .text .small {
+        margin-bottom: 20px;
+    }
+
+    .section-03 .swiper-slide .img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .section-03 .demoSwiper .demo-btn-wrap {
+        top: 185px;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        width: 30px;
+        height: 30px;
+    }
+
+    .section-03 .swiper-slide .text {
+        width: 100%;
+    }
+
+    .section-03 .swiper-slide .text .main-text {
+        font-size: 24px;
+    }
+
+    .section-03 .swiper-slide .text .ex {
+        font-size: 16px;
+    }
+
+    .section-04 .container {
+        padding: 0 20px;
+    }
+
+    .footer .right {
+        margin-top: 0;
+        font-size: 16px;
+    }
+
+    .footer .right a img {
+        width: 12px;
+        height: 12px;
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .section-02 .card-01 .item-wrap .item .left {
+        column-gap: 20px;
+    }
+
+    .section-02 .card-01 .item-wrap .item .left .num {
+        font-size: 18px;
+    }
+
+
+    .section-02 .card-01 .item-wrap .item .left .text .top {
+        font-size: 14px;
+    }
+
+    .section-02 .card-01 .item-wrap .item .left .text .mid {
+        font-size: 24px;
+        padding-right: 20px;
+    }
+
+    .section-02 .card-01 .item-wrap .item .left .text .bot {
+        display: none;
+    }
+
+    .section-02 .card-01 .item-wrap .item .more {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .section-02 .card-02 .tablet .img {
+        height: 300px;
+    }
+
+    .section-04 .title-text .title {
+        line-height: 1;
+    }
+
+    .footer .right {
+        padding-right: 10%;
+        margin-top: -20px;
+    }
+
+    .footer .right a img {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .footer {
+        position: relative;
+    }
+
+    .footer .left {
+        font-size: 12px;
+    }
+
+    .footer .right {
+        padding: 0;
+        margin: 0;
+
+        font-size: 14px;
+
+        position: absolute;
+        top: 40px;
+        right: 60px;
+    }
+
+    .footer .right a:first-child {
+        margin: 0;
+    }
+
+    .footer .bot .sns {
+        padding-bottom: 10px;
+    }
+    
+    .footer .copy {
+        position: static;
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width:420px) {
+    .header .logo {
+        width: 90px;
+    }
+
+    .header .login {
+        font-size: 16px;
+    }
+
+    .header .login .img {
+        width: 22px;
+    }
+
+    .header .login .img::before {
+        width: 35px;
+        height: 35px;
+    }
+
+    .main-visual .btn-wrap {
+        top: -60px;
+    }
+
+    .main-visual .btn-wrap .btn .item {
+        font-size: 16px;
+        column-gap: 14px;
+    }
+
+    .section-01 .text .sub {
+        font-size: 16px;
+    }
+
+    .section .title-text .title {
+        font-size: 50px;
+    }
+
+    .section .title-text .sub {
+        font-size: 14px;
+    }
+
+    .section-02 .card-01 .item-wrap .item .left .text .mid {
+        font-size: 20px;
+    }
+
+    .section-02 .card-01 .item-wrap .item .more {
+        width: 16px;
+    }
+
+    .section-02 .card-02 .tablet .text .big {
+        font-size: 40px;
+    }
+
+    .section-02 .card-02 .tablet .text .small {
+        font-size: 14px;
+    }
+
+    .section-03 .swiper-slide .text .ex {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding-top: 30px;
+    }
+
+    .footer .right {
+        right: 50px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .footer .logo {
+        width: 80px;
+    }
+
+    .footer .info {
+        margin-top: 12px;
+    }
+
+    .footer .info p {
+        margin: 3px 0;
+    }
+
+    .footer .right {
+        top: 30px;
+        right: 42px;
+    }
+
+    .footer .bot .sns {
+        padding-bottom: 8px;
+        gap: 12px;
+    }
+}

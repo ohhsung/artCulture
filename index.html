@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아트앤컬쳐</title>
+
+    <!-- 라이브러리 -->
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- data aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- 메인 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="lib/script.js"></script>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="inner">
+            <div class="justify">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="img/icon/logo.svg" alt="">
+                    </a>
+                </h1>
+
+                <nav class="nav pc-nav">
+                    <ul class="gnb">
+                        <li>
+                            <a href="#" class="depth-01">아트앤컬쳐</a>
+                            <ul class="depth-02">
+                                <li><a href="#">기업 소개</a></li>
+                                <li><a href="#">주요 사업</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">교과서 자료실</a>
+                            <ul class="depth-02">
+                                <li><a href="#">교육과정</a></li>
+                                <li><a href="#">초등학교 미술 3~4학년군</a></li>
+                                <li><a href="#">초등학교 미술 5~6학년군</a></li>
+                                <li><a href="#">고등학교 미술과 매체</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">계기교육 · 창의적체험활동</a>
+                            <ul class="depth-02">
+                                <li><a href="#">월별</a></li>
+                                <li><a href="#">주제별</a></li>
+                                <li><a href="#">표현 영역별</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">작품 감상실</a>
+                            <ul class="depth-02">
+                                <li><a href="#">갤러리</a></li>
+                                <li><a href="#">동영상</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">전시회 소식</a>
+                            <ul class="depth-02">
+                                <li><a href="#">국내 전시</a></li>
+                                <li><a href="#">국외 전시</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">포트폴리오</a>
+                            <ul class="depth-02">
+                                <li><a href="#">교과서</a></li>
+                                <li><a href="#">단행본</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">고객센터</a>
+                            <ul class="depth-02">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">문의하기</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- gnb -->
+                </nav>
+            </div>
+            <!-- justify -->
+
+            <div class="login">
+                <div class="img">
+                    <a href="#"><img src="img/icon/search.svg" alt=""></a>
+                </div>
+
+                <p><a href="#">로그인</a></p>
+            </div>
+        </div>
+        <!-- inner -->
+    </header>
+
+    <main class="main">
+        <div class="inner">
+            <div class="header-tab-menu">
+                <div class="inner">
+                    <div class="tab-btn">
+                        <img src="img/icon/menu_toggle.png" alt="">
+                    </div>
+
+                    <nav class="nav">
+                        <ul class="gnb">
+                            <li>
+                                <a href="#" class="depth-01">아트앤컬쳐</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">기업 소개</a></li>
+                                    <li><a href="#">주요 사업</a></li>
+                                    <li><a href="#">오시는 길</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">교과서 자료실</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">교육과정</a></li>
+                                    <li><a href="#">3~4학년군</a></li>
+                                    <li><a href="#">5~6학년군</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">계기교육 · 창의적체험활동</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">월별</a></li>
+                                    <li><a href="#">주제별</a></li>
+                                    <li><a href="#">표현 영역별</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">작품 감상실</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">갤러리</a></li>
+                                    <li><a href="#">동영상</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">전시회 소식</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">국내 전시</a></li>
+                                    <li><a href="#">국외 전시</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">포트폴리오</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">교과서</a></li>
+                                    <li><a href="#">단행본</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">고객센터</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">문의하기</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- gnb -->
+                    </nav>
+                </div>
+            </div>
+            <!-- header tab -->
+
+            <section class="main-visual">
+                <div class="inner">
+                    <div class="title-text">
+                        <h2 class="title">ART & Culture</h2>
+
+                        <div class="btn-wrap">
+                            <a href="#" class="btn">
+                                <p class="item">작품 감상실 <span>→</span></p>
+                            </a>
+
+                            <!-- btn -->
+                            <a href="#" class="btn">
+                                <p class="item">교과서 자료실 <span>→</span></p>
+                            </a>
+                            <!-- btn -->
+                        </div>
+                        <!-- btn-wrap -->
+                    </div>
+                    <!-- title text -->
+                </div>
+                <!-- inner -->
+
+                <div class="mint-blob">
+                    <img src="img/icon/mint.png" alt="">
+                </div>
+            </section>
+            <!-- main-visual -->
+
+            <section class="section-01">
+                <div class="inner">
+                    <div class="text">
+                        <p class="sub">
+                            아트앤컬처는 미술의 매력을 담은 책을 선보이며, <br>
+                            예술을 사랑하는 이들에게 영감을 선사합니다.
+                        </p>
+                    </div>
+
+                    <div class="scrollX pc">
+                        <div class="img-wrap">
+                            <div class="img">
+                                <img src="img/item/section01_1.jpg" alt="">
+                            </div>
+
+                            <div class="img">
+                                <img src="img/item/section01_2.jpg" alt="">
+                            </div>
+
+                            <div class="img">
+                                <img src="img/item/section01_3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mobile">
+                        <div class="img-wrap">
+                            <div class="img">
+                                <img src="img/item/section01_1.jpg" alt="">
+                            </div>
+
+                            <div class="img">
+                                <img src="img/item/section01_2.jpg" alt="">
+                            </div>
+
+                            <div class="img">
+                                <img src="img/item/section01_3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- inner -->
+            </section>
+            <!-- 1 -->
+
+            <section class="section section-02">
+                <div class="inner">
+                    <div class="card card-01">
+                        <div class="title-text">
+                            <p class="title">
+                                교과서 자료실
+                            </p>
+
+                            <p class="sub">
+                                <span>아트앤컬처의 교과서 자료실은 초등학교 미술 교육을 위한 다양한 자료들을 통해 교사와 학생들에게 지식과 영감을 제공합니다.</span>
+                                <span>교육과정에 부합하는 풍부한 자료들과 E-book, 수업 자료 등 미술 교육에 필요한 모든 정보를 한눈에 확인할 수 있습니다.</span>
+                            </p>
+                        </div>
+
+                        <div class="item-wrap">
+                            <div class="item">
+                                <div class="left">
+                                    <div class="num">
+                                        01
+                                    </div>
+
+                                    <div class="text">
+                                        <p class="top">Elementary School Art</p>
+                                        <p class="mid">교육과정</p>
+                                        <p class="bot">초등학교 교육과정을 확인할 수 있습니다.</p>
+                                    </div>
+                                </div>
+
+                                <div class="more">
+                                    <img src="img/icon/link_arrow.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="left">
+                                    <div class="num">
+                                        02
+                                    </div>
+
+                                    <div class="text">
+                                        <p class="top">Curriculum</p>
+                                        <p class="mid">초등학교 미술 3~4학년군</p>
+                                        <p class="bot">초등학교 미술 3~4학년군 자료를 확인할 수 있습니다.</p>
+                                    </div>
+                                </div>
+
+                                <div class="more">
+                                    <img src="img/icon/link_arrow.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="left">
+                                    <div class="num">
+                                        03
+                                    </div>
+
+                                    <div class="text">
+                                        <p class="top">Curriculum</p>
+                                        <p class="mid">초등학교 미술 5~6학년군</p>
+                                        <p class="bot">초등학교 미술 5~6학년군 자료를 확인할 수 있습니다.</p>
+                                    </div>
+                                </div>
+
+                                <div class="more">
+                                    <img src="img/icon/link_arrow.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item wrap -->
+                    </div>
+                    <!-- card 01 -->
+
+                    <div class="card pc-card">
+                    </div>
+
+                    <div class="card card-02">
+                        <div class="title-text pc">
+                            <p class="title">
+                                시대별 미술 작품
+                            </p>
+
+                            <p class="sub">
+                                <span>기원전부터 동시대까지 시대별로 정리한 미술 작품을 감상해 보세요.</span>
+                            </p>
+                        </div>
+
+                        <div class="item-wrap pc">
+                            <div class="item item-1">
+                                <div class="img">
+                                    <img src="img/item/section04_1.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="item item-2">
+                                <div class="img">
+                                    <img src="img/item/section04_2.jpeg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="item item-3">
+                                <div class="img">
+                                    <img src="img/item/section04_3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- pc -->
+
+                        <div class="tablet">
+                            <div class="inner">
+                                <div class="item">
+                                    <div class="text">
+                                        <p class="big">시대별 미술 작품</p>
+                                        <p class="small">기원전부터 동시대까지 시대별로 정리한 미술 작품을 감상해 보세요.</p>
+                                    </div>
+
+                                    <div class="img">
+                                        <img src="img/item/section04_1.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="text">
+                                        <p class="big">작가별 미술 작품</p>
+                                        <p class="small">국내외 미술 작가의 이름별로 정리한 미술 작품을 감상해 보세요</p>
+                                    </div>
+
+                                    <div class="img">
+                                        <img src="img/item/section04_2.jpeg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="text">
+                                        <p class="big">소장처별 미술 작품</p>
+                                        <p class="small">국립 중앙 박물관, 시카고 미술관, 루브르 박물관 등 세계 미술관에서 소장하고 있는 작품을 감상해 보세요.</p>
+                                    </div>
+
+                                    <div class="img">
+                                        <img src="img/item/section04_3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tablet -->
+                    </div>
+                    <!-- card 02 -->
+                </div>
+                <!-- inner -->
+            </section>
+            <!-- 2 -->
+
+            <section class="section section-03">
+                <div class="title-text">
+                    <p class="title">
+                        작품 감상실
+                    </p>
+
+                    <p class="sub">
+                        <span>작품을 시대별, 작가별, 소장처별로 분류하여 원하는 작품을 쉽고 빠르게 찾을 수 있습니다.</span>
+                        <span>박물관･미술관 방문 전 소장 작품을 미리 확인할 때에도 유용합니다. 고해상도 이미지로 제공되어 생생하게 감상할 수 있고</span>
+                        <span>제작 연도, 작품 크기, 소장처 등 작품 관련 정보를 정확하게 확인할 수 있습니다.</span>
+                    </p>
+                </div>
+
+                <div class="container">
+                    <div class="swiper demoSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="img/item/section03_1.jpg" alt="">
+                                </div>
+
+                                <div class="text">
+                                    <p class="main-text">씨름, 《단원 풍속도첩》</p>
+
+                                    <div class="ex">
+                                        <div class="row">
+                                            <p class="bold">작가</p>
+                                            <p>김홍도(조선)</p>
+                                        </div>
+
+                                        <div class="row">
+                                            <p class="bold">재료와 기법</p>
+                                            <p>한지에 수묵 채색</p>
+                                        </div>
+
+                                        <div class="row">
+                                            <p class="bold">작품 크기</p>
+                                            <p>26.9x22.2 cm</p>
+                                        </div>
+
+                                        <div class="row">
+                                            <p class="bold">제작년도</p>
+                                            <p>18세기</p>
+                                        </div>
+
+                                        <div class="row">
+                                            <p class="bold">소장처</p>
+                                            <p>국립중앙박물관</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- text -->
+                            </div>
+                            <!-- slide 1 -->
+
+                            <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="img/item/section03_2.jpg" alt="">
+                                </div>
+
+                                <div class="text">
+                                    <p class="main-text">두 자매</p>
+
+                                    <div class="ex">
+                                        <div class="row">
+                                            <p class="bold">작가</p>
+                                            <p>르누아르(프랑스)</p>
+                                        </div>
+
+                                        <div class="row">
+                                            <p class="bold">재료와 기법</p>
+                                            <p>캔버스에 유채</p>
+                                        </div>
+
+                                        <div class="row">
+                                            <p class="bold">작품 크기</p>
+                                            <p>100.4x80.9 cm</p>
+                                        </div>
+
+                                        <div class="row">
+                                            <p class="bold">제작년도</p>
+                                            <p>1881년</p>
+                                        </div>
+
+                                        <div class="row">
+                                            <p class="bold">소장처</p>
+                                            <p>시카고 아트 인스티튜트</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- text -->
+                            </div>
+                            <!-- slide 2 -->
+
+                            <div class="swiper-slide">
+                                <video class="video" controls playsinline>
+                                    <source src="img/item/video.mp4">
+                                    브라우저가 video 태그를 지원하지 않습니다.
+                                </video>
+
+
+                                <div class="text">
+                                    <p class="main-text">동영상 감상실</p>
+
+                                    <div class="ex">
+                                        <p>
+                                            다채로운 동영상 콘텐츠를 통해 미술 시간을 풍부하고 즐겁게 만들어 드리는 공간입니다.
+                                            고품질 감상 자료를 통해 작품을 깊이 이해하고, 작품 분석 능력을 키워 보세요.
+                                            미술 퀴즈로는 지루할 틈 없이 미술 지식을 쌓을 수 있지요. 유튜버 할미의 유쾌하고
+                                            흥미진진한 미술 이야기를 통해 미술과 즐겁게 만나 보세요!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- text -->
+                            </div>
+                            <!-- slide 3 -->
+
+                        </div>
+                        <!-- wrapper -->
+
+                        <div class="demo-btn-wrap">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <!-- demo -->
+                </div>
+                <!-- container -->
+            </section>
+            <!-- 3 -->
+
+            <section class="section section-04">
+                <div class="inner">
+                    <div class="title-text">
+                        <p class="title">
+                            포트폴리오
+                        </p>
+                    </div>
+
+                    <div class="container">
+                        <div class="swiper slideSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="img/item/section05_1.jpg" alt="">
+                                    </div>
+
+                                    <div class="text">
+                                        국립중앙박물관 특별전 《마나 모아나 - 오세아니아의 예술》을 바탕으로 한 그림책입니다.
+                                    </div>
+                                </div>
+                                <!-- slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="img/item/section05_2.jpg" alt="">
+                                    </div>
+
+                                    <div class="text">
+                                        〈이상한 나라의 앨리스〉를 모티프로 한 학습 만화로, 쉽고 재미있게 인공지능을 설명한 교재입니다.
+                                    </div>
+                                </div>
+                                <!-- slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="img/item/section05_3.jpg" alt="">
+                                    </div>
+
+                                    <div class="text">
+                                        [리뉴얼] 유니버설디자인의 기본 개념, 실제 예시, 그리고 연습 문제 등을 통해 누구나 쉽게 배우는 UD 워크북입니다.
+                                    </div>
+                                </div>
+                                <!-- slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="img/item/section05_4.jpg" alt="">
+                                    </div>
+
+                                    <div class="text">
+                                        유니버설디자인의 기본 개념, 실제 예시, 그리고 연습 문제 등을 통해 누구나 쉽게 배우는 UD 워크북입니다.
+                                    </div>
+                                </div>
+                                <!-- slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="img/item/section05_5.jpg" alt="">
+                                    </div>
+
+                                    <div class="text">
+                                        [개정판] 한국 미술 재료의 특성을 살리고, 재미있는 기법을 활용하여 현대 미술로 표현한 실용서입니다.
+                                    </div>
+                                </div>
+                                <!-- slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="img/item/section05_6.png" alt="">
+                                    </div>
+
+                                    <div class="text">
+                                        한국 미술 재료의 특성을 살리고, 재미있는 기법을 활용하여 현대 미술로 표현한 실용서입니다.
+                                    </div>
+                                </div>
+                                <!-- slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="img/item/section05_7.jpg" alt="">
+                                    </div>
+
+                                    <div class="text">
+                                        역대 최고 고화질을 자랑하는 명화 도감 시리즈 &lt;진짜를 찾아라 3-영웅 편&gt; 명화 속 숨어 있는 놀라운 디테일이 펼쳐집니다.s
+                                    </div>
+                                </div>
+                                <!-- slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="img/item/section05_8.jpg" alt="">
+                                    </div>
+
+                                    <div class="text">
+                                        그리스·로마 신화, 이것만 알면 게임 끝! 신화에 나오는 올림포스 12신에 대한 흥미로운 이야기가 담겨 있습니다.
+                                    </div>
+                                </div>
+                                <!-- slide -->
+
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="img/item/section05_9.jpg" alt="">
+                                    </div>
+
+                                    <div class="text">
+
+                                        틀린 그림을 찾으며 두뇌를 트레이닝하는 미술 감상북입니다. 명화 컬러링도 함께 즐겨 보세요.
+                                    </div>
+                                </div>
+                                <!-- slide -->
+
+                            </div>
+                            <!-- wrapper -->
+                        </div>
+                        <!-- Swiper -->
+                    </div>
+                    <!-- container -->
+                </div>
+                <!-- inner -->
+            </section>
+            <!-- 4 -->
+
+
+            <footer class="footer">
+                <div class="inner">
+                    <div class="company">
+                        <div class="left">
+                            <div class="logo">
+                                <img src="img/icon/logo.svg" alt="">
+                            </div>
+
+                            <div class="info">
+                                <p>대표자명: 황인영</p>
+                                <p>주소: 서울특별시 동대문구 천호대로 391, 15층 1507호</p>
+                                <p>대표 번호: 02-6217-8008</p>
+                                <p>대표 메일: art_n_culture@naver.com</p>
+                                <p>사업자등록번호: 317-87-03075</p>
+                            </div>
+                        </div>
+                        <!-- left -->
+
+                        <div class="right">
+                            <p><a href="#">공지사항 <img src="img/icon/link_arrow.png" alt=""></a></p>
+                            <p><a href="#">문의하기 <img src="img/icon/link_arrow.png" alt=""></a></p>
+                        </div>
+                        <!-- right -->
+                    </div>
+                    <!-- company -->
+
+                    <div class="bot">
+                        <div class="sns">
+                            <p>Follow us</p>
+                            <p><a href="#"><img src="img/icon/facebook.png" alt=""></a></p>
+                            <p><a href="#"><img src="img/icon/instagram.png" alt=""></a></p>
+                            <p><a href="#"><img src="img/icon/youtube.png" alt=""></a></p>
+                        </div>
+
+                        <div class="copy">
+                            <p>Copyright ART&CULTURE Inc. All right reserved.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- inner -->
+            </footer>
+        </div>
+        <!-- inner -->
+    </main>
+</body>
+
+</html>

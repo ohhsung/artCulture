@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'green1';
+    src: url('YoonChildfundkoreaDaeHan.eot');
+    src: url('YoonChildfundkoreaDaeHan.eot?#iefix') format('embedded-opentype'),
+        url('YoonChildfundkoreaDaeHan.woff2') format('woff2'),
+        url('YoonChildfundkoreaDaeHan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'green2';
+    src: url('YoonChildfundkoreaManSeh.eot');
+    src: url('YoonChildfundkoreaManSeh.eot?#iefix') format('embedded-opentype'),
+        url('YoonChildfundkoreaManSeh.woff2') format('woff2'),
+        url('YoonChildfundkoreaManSeh.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'green3';
+    src: url('YoonChildfundkoreaMinGuk.eot');
+    src: url('YoonChildfundkoreaMinGuk.eot?#iefix') format('embedded-opentype'),
+        url('YoonChildfundkoreaMinGuk.woff2') format('woff2'),
+        url('YoonChildfundkoreaMinGuk.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
