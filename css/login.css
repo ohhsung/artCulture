@@ -1,0 +1,221 @@
+.header .depth-02 {
+    background: #ffffff60;
+    padding-right: 40px;
+}
+
+.sub-section-01 {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 100px;
+}
+
+.sub-section-01 .login-img {
+    width: 60%;
+    height: 120%;
+
+    z-index: -1;
+}
+
+.sub-section-01 .login-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-section {
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    white-space: nowrap;
+}
+
+.login-section .inner {
+    width: 600px;
+
+    padding: 50px;
+}
+
+.login-section .inner .title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.login-section .inner .login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-section .inner input[type="text"],
+.login-section .inner input[type="password"] {
+    width: 100%;
+    height: 50px;
+
+    border: 1px solid #ddd;
+
+    padding: 10px;
+    margin-bottom: 14px;
+
+    border-radius: 3px;
+}
+
+.login-section .inner input[type="submit"] {
+    width: 100%;
+    height: 50px;
+
+    background-color: #FCDC00;
+    color: #000;
+
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.login-section .inner input[type="submit"]:hover {
+    background-color: #eccf13;
+}
+
+.login-section .caps-warning {
+    font-size: 13px;
+    margin-bottom: 14px;
+    display: none;
+    opacity: 0.7;
+}
+
+.login-section .links {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.login-section .links a {
+    display: inline;
+}
+
+.login-section .links a:hover {
+    text-decoration: underline;
+}
+
+.login-section .sns-login {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.login-section .sns-login p {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.login-section .sns-login p::before {
+    content: '';
+    width: 100px;
+    height: 1px;
+
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    transform: translateY(-50%);
+
+    background: #ddd;
+}
+
+.login-section .sns-login p::after {
+    content: '';
+    width: 100px;
+    height: 1px;
+
+    position: absolute;
+    top: 50%;
+    right: 110%;
+    transform: translateY(-50%);
+
+    background: #ddd;
+}
+
+.login-section .sns-icons a {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+
+    height: 50px;
+
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    margin-bottom: 10px;
+    padding: 10px;
+
+    font-size: 14px;
+}
+
+.login-section .sns-icons a:hover {
+    background: #ddd;
+}
+
+.login-section .sns-icons a img {
+    width: 30px;
+}
+
+.login-section .sign-up {
+    margin-top: 60px;
+    text-align: center;
+    color: #666;
+}
+
+.login-section .sign-up span {
+    color: #222;
+}
+
+.login-section .sign-up:hover span {
+    text-decoration: underline;
+}
+
+/* 미디어쿼리 */
+
+@media screen and (max-width: 1024px) {
+    .sub-section-01 {
+        margin-top: 120px;
+        margin-bottom: 100px;
+        height: auto;
+    }
+
+    .sub-section-01 .login-img {
+        display: none;
+    }
+
+    .login-section .inner {
+        padding: 30px;
+    }
+
+    .login-section {
+        width: 100%;
+    }
+
+    .login-section .inner .title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login-section .inner {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .login-section .sns-login p::before,
+    .login-section .sns-login p::after {
+        width: 50px;
+    }
+}
