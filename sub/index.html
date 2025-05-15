@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <script>
+        window.onload = () => {
+            // 비밀번호 입력시 capslock 알림창
+            const passwordInput = document.getElementById('password');
+            const warning = document.getElementById('capsWarning');
+
+            passwordInput.addEventListener('keyup', function (event) {
+                if (event.getModifierState && event.getModifierState('CapsLock')) {
+                    warning.style.display = 'block';
+                } else {
+                    warning.style.display = 'none';
+                }
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="inner">
+            <div class="justify">
+                <h1 class="logo">
+                    <a href="../index.html">
+                        <img src="../img/icon/logo.svg" alt="">
+                    </a>
+                </h1>
+
+                <nav class="nav pc-nav">
+                    <ul class="gnb">
+                        <li>
+                            <a href="#" class="depth-01">아트앤컬쳐</a>
+                            <ul class="depth-02">
+                                <li><a href="#">기업 소개</a></li>
+                                <li><a href="#">주요 사업</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">교과서 자료실</a>
+                            <ul class="depth-02">
+                                <li><a href="#">교육과정</a></li>
+                                <li><a href="#">초등학교 미술 3~4학년군</a></li>
+                                <li><a href="#">초등학교 미술 5~6학년군</a></li>
+                                <li><a href="#">고등학교 미술과 매체</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">계기교육 · 창의적체험활동</a>
+                            <ul class="depth-02">
+                                <li><a href="#">월별</a></li>
+                                <li><a href="#">주제별</a></li>
+                                <li><a href="#">표현 영역별</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">작품 감상실</a>
+                            <ul class="depth-02">
+                                <li><a href="#">갤러리</a></li>
+                                <li><a href="#">동영상</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">전시회 소식</a>
+                            <ul class="depth-02">
+                                <li><a href="#">국내 전시</a></li>
+                                <li><a href="#">국외 전시</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">포트폴리오</a>
+                            <ul class="depth-02">
+                                <li><a href="#">교과서</a></li>
+                                <li><a href="#">단행본</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="depth-01">고객센터</a>
+                            <ul class="depth-02">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">문의하기</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- gnb -->
+                </nav>
+            </div>
+            <!-- justify -->
+
+            <div class="login">
+                <div class="img">
+                    <a href="#"><img src="../img/icon/search.svg" alt=""></a>
+                </div>
+
+                <p><a href="#">로그인</a></p>
+            </div>
+        </div>
+        <!-- inner -->
+    </header>
+
+    <main class="main">
+        <div class="inner">
+            <div class="header-tab-menu">
+                <div class="inner">
+                    <div class="tab-btn">
+                        <img src="../img/icon/menu_toggle.png" alt="">
+                    </div>
+
+                    <nav class="nav">
+                        <ul class="gnb">
+                            <li>
+                                <a href="#" class="depth-01">아트앤컬쳐</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">기업 소개</a></li>
+                                    <li><a href="#">주요 사업</a></li>
+                                    <li><a href="#">오시는 길</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">교과서 자료실</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">교육과정</a></li>
+                                    <li><a href="#">3~4학년군</a></li>
+                                    <li><a href="#">5~6학년군</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">계기교육 · 창의적체험활동</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">월별</a></li>
+                                    <li><a href="#">주제별</a></li>
+                                    <li><a href="#">표현 영역별</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">작품 감상실</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">갤러리</a></li>
+                                    <li><a href="#">동영상</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">전시회 소식</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">국내 전시</a></li>
+                                    <li><a href="#">국외 전시</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">포트폴리오</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">교과서</a></li>
+                                    <li><a href="#">단행본</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#" class="depth-01">고객센터</a>
+                                <ul class="depth-02">
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">문의하기</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- gnb -->
+                    </nav>
+                </div>
+            </div>
+            <!-- header tab -->
+
+            <section class="sub-section-01">
+                <div class="login-img">
+                    <img src="../img/item/login-bg.png" alt="">
+                </div>
+
+                <div class="login-section">
+
+                    <div class="inner">
+                        <p class="title">아트앤컬쳐 로그인/회원가입</p>
+                        <form action="/login" method="post" class="login-form">
+                            <input type="text" name="username" placeholder="아이디" required>
+                            <input type="password" name="password" placeholder="비밀번호" id="password" required>
+                            <div class="caps-warning" id="capsWarning">⚠️ Caps Lock이 켜져 있습니다.</div>
+                            <input type="submit" value="로그인">
+                        </form>
+                        <div class="links">
+                            <a href="#">아이디 / 비밀번호를 잊으셨나요?</a>
+                        </div>
+                        <div class="sns-login">
+                            <p>SNS 계정으로 로그인</p>
+                            <div class="sns-icons">
+                                <a href="#">
+                                    <img src="../img/icon/c_google.png" alt="카카오 로그인">
+                                    구글 로그인
+                                </a>
+                                <a href="#">
+                                    <img src="../img/icon/c_kakao.png" alt="네이버 로그인">
+                                    카카오톡 로그인
+                                </a>
+                                <a href="#">
+                                    <img src="../img/icon/c_facebook.png" alt="구글 로그인">
+                                    페이스북 로그인
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sign-up">
+                            <a href="#" class="sign-up">아직 가입하지 않으셨나요? <span>회원가입</span></a>
+                        </div>
+                    </div>
+                    <!-- inner -->
+                </div>
+                <!-- login -->
+            </section>
+        </div>
+        <!-- inner -->
+    </main>
+
+    <footer class="footer">
+        <div class="inner">
+            <div class="company">
+                <div class="left">
+                    <div class="logo">
+                        <img src="../img/icon/logo.svg" alt="">
+                    </div>
+
+                    <div class="info">
+                        <p>대표자명: 황인영</p>
+                        <p>주소: 서울특별시 동대문구 천호대로 391, 15층 1507호</p>
+                        <p>대표 번호: 02-6217-8008</p>
+                        <p>대표 메일: art_n_culture@naver.com</p>
+                        <p>사업자등록번호: 317-87-03075</p>
+                    </div>
+                </div>
+                <!-- left -->
+
+                <div class="right">
+                    <p><a href="#">공지사항 <img src="../img/icon/link_arrow.png" alt=""></a></p>
+                    <p><a href="#">문의하기 <img src="../img/icon/link_arrow.png" alt=""></a></p>
+                </div>
+                <!-- right -->
+            </div>
+            <!-- company -->
+
+            <div class="bot">
+                <div class="sns">
+                    <p>Follow us</p>
+                    <p><a href="#"><img src="../img/icon/facebook.png" alt=""></a></p>
+                    <p><a href="#"><img src="../img/icon/instagram.png" alt=""></a></p>
+                    <p><a href="#"><img src="../img/icon/youtube.png" alt=""></a></p>
+                </div>
+
+                <div class="copy">
+                    <p>Copyright ART&CULTURE Inc. All right reserved.</p>
+                </div>
+            </div>
+        </div>
+        <!-- inner -->
+    </footer>
+</body>
+
+</html>
