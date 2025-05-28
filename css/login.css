@@ -1,3 +1,8 @@
+.header .login::after,
+.header .login::before {
+    display: none;
+}
+
 .header .depth-02 {
     background: #ffffff60;
     padding-right: 40px;
